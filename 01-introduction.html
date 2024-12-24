@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/stlye-page1.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="background-color: #f4f1ed;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top py-4" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand fw-bolder animate__animated animate__bounceIn" id="navBrand">The
+                Wellhall</a>
+            <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasleft">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav fw-bold animate__animated animate__fadeIn">
+                    <li><a href="#" class="text-uppercase nav-link me-4 text-hover" id="linkHome">Home</a></li>
+                    <li><a href="#Development" class="text-uppercase nav-link me-4 text-hover"
+                            id="linkDevelopment">Development</a></li>
+                    <li><a href="#About" class="text-uppercase nav-link me-4 text-hover" id="linkAbout">About</a></li>
+                    <li><a href="#Contact" class="text-uppercase nav-link me-4 text-hover" id="linkContact">Contact</a>
+                    </li>
+                    <i class="btn-se bi bi-search fs-4 ms-2"></i>
+                    <li><a href="#" class="text-uppercase nav-link me-4 text-hover" id="linkFollow">Follow</a></li>
+                    <button class="btn btn-dark  rounded-5" id="contactButton">+855 11-222-444</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end w-50 " id="offcanvasleft" data-bs-scroll="true">
+        <div class="offcanvas-header border-bottom">
+            <h3>The Wellhall</h3>
+            <button class="btn-close text-white shadow-none " data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body  p-0">
+            <div class="container-fluid d-flex border-bottom p-3">
+
+                <div class="col-6">
+                    <ul class="navbar-nav">
+                        <li><a href="" class="nav-link sans-serif text-uppercase py-2 text-hover">Home</a></li>
+                        <li><a href="#Development"
+                                class="nav-link sans-serif text-uppercase py-2 text-hover">Development</a></li>
+                        <li><a href="#About" class="nav-link sans-serif text-uppercase py-2 text-hover">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="navbar-nav">
+                        <li><a href="#Contact" class="nav-link sans-serif text-uppercase py-2 text-hover">Contact</a>
+                        </li>
+                        <li><a href="" class="nav-link sans-serif text-uppercase py-2 text-hover">Follow</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-3 py-3 border-bottom">
+                <form action="" class="d-flex align-items-center border px-2">
+                    <i class="bi bi-search fs-4"></i>
+                    <input type="text" class="form-control shadow-none border-0" placeholder="Search...">
+                    <span>Ctrl+k</span>
+                </form>
+            </div>
+            <div class="p-3 d-flex align-items-center justify-content-between ">
+                <button class="btn btn-outline-primary rounded-5">+855 11-222-444</button>
+                <div class="dropdown ">
+                    <button class="btn btn-secondary dropdown-toggle mt-3" type="button" data-bs-toggle="dropdown">
+                        <i class="bi bi-person-circle px-2"></i>Account
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sign In</a></li>
+                        <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-lg-5 p-md-0 d-flex col-lg-12 col-md-6 mt-5">
+        <div class="right-txt col-7 p-lg-5 p-md-0">
+            <h1 id="txt-page1" class=" fs-1 Playfair-Display" data-aos="fade-up" data-aos-duration="1000"
+                style="color: #623e2a;">
+                Welcome to your luxurious home away from home
+            </h1>
+            <p id="txt-p" class="fs-4 mt-5 ubuntu-bold-italic " style="color: #623e2a;">
+                Write a paragraph that talks about your brand or property here. Convince your prospective clients to
+                choose you and your offerings by highlighting the qualities that set you apart from the competition.
+                Your audience is already on your website, so push a little bit harder to seal the deal!
+            </p>
+        </div>
+        <div class="left-txt col-5">
+            <div class="container-fluid">
+                <div style="height: 640px; width: 450px;" class="m-auto">
+                    <img src="image/image-for-page1.jpg" width="100%" height="100%"
+                        class="object-fit-cover overflow-hidden" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-lg-5 p-md-0 col-lg-12 ">
+        <h1 class="text-center pt-5 mt-3 pb-5 mb-2 Playfair-Display txt-accommmon" style="color: #623e2a;" data-aos="fade-up">
+            Accommodations</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 justify-content-evenly">
+                <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12 col-md-12 mt-lg-0 mt-md-5 mt-5">
+                    <img src="image/bed-1.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden"
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 border border-2 border-dark mt-5 " style="width: 450px; height: 280px; " >
+                    <p class="py-5 ps-4">2 adults | 1 child below 7</p>
+                    <p class="fs-4 ps-4">De Luxe Room</p>
+                    <p class="py-1 ps-4">from $189 a night</p>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 justify-content-evenly">
+                <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12 mt-lg-0 mt-md-5 mt-5">
+                    <img src="image/bed-2.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden"
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 border border-2 border-dark mt-5 " style="width: 450px; height: 280px; " >
+                    <p class="py-5 ps-4">2 adults | 1 child below 7</p>
+                    <p class="fs-4 ps-4">De Luxe Sea View</p>
+                    <p class="py-1 ps-4">from $209 a night</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 justify-content-evenly">
+                <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12 col-md-12 mt-lg-0 mt-md-5 mt-5">
+                    <img src="image/bed-3.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden"
+                        alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 border border-2 border-dark mt-5 mb-md-5"
+                    style="width: 450px; height: 280px; ">
+                    <p class="py-5 ps-4">2 adults | 2 child below 7</p>
+                    <p class="fs-4 ps-4">The Wellhall Family Suite</p>
+                    <p class="py-1 ps-4">from $399 a night</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 pt-5" style="height: auto;">
+            <div class="d-flex">
+                <div class="txt col-lg-6">
+                    <p class="txt-family Playfair-Display " data-aos="fade-up">The Family Suite</p>
+                </div>
+                <div class="img col-lg-6">
+                    <div class="bg-danger" style="width: 100%; height: auto;" >
+                        <img src="image/page3.jpg" alt="" class="object-fit-cover overflow-hidden"
+                            style="width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5">
+                <div class="d-flex">
+                    <div class="col-lg-6">
+                        <p class="col-lg-8">Showcase the best your property has to offer by highlighting one of your
+                            accommodations. Add a flattering photo, then describe the room's best feature.</p>
+                    </div>
+                    <div class="col-lg-6 p-4 border border-2 border-black">
+                        <p class="text-center">An intriguing caption that describes the room goes here. Use a flattering
+                            photo, then describe away!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 pt-5 mt-5 d-flex flex-wrap">
+            <div class="col-lg-5 col-md-6 col-sm-12 pe-lg-4">
+                <div class="img-bathroom col-12">
+                    <img src="image/1-bathroom.jpg" alt="" width="100%" style="height: 700vh; max-height: 700px;" >  
+                    <div class="px-4 col-12 border border-1 border-black mt-5 d-flex justify-content-center align-items-center"
+                        style="height: 13vh;">
+                        <p>An intriguing caption that describes the room goes here. Use a flattering photo, then
+                            describe away!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 ps-lg-4 mt-4 mt-md-0">
+                <div class="img-bathroom col-12">
+                    <img src="image/2-bathroom.jpg" class="img-bathroom2" alt="" width="100%"
+                        style="height: 700vh; max-height: 700px;">
+                    <div class="px-4 col-12 border border-1 border-black mt-5 d-flex justify-content-center align-items-center"
+                        style="height: 13vh;">
+                        <p>An intriguing caption that describes the room goes here. Use a flattering photo, then
+                            describe away!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-5 mt-3 pb-5 mb-2 Playfair-Display txt-pro" style="color: #623e2a;" >Promos and Offers
+        </div>
+        <div class="col-lg-12 pt-5 mt-5 px-3">
+            <div class=" col-lg-4 col-md-12 d-flex justify-content-evenly row-md-12">
+                <div class="card-1 col-lg-12 px-3" style="height: 70vh;">
+                    <img src="image/office 1.jpg" class="object-fit-cover over overflow-hidden" height="50%"
+                        width="100%" alt="">
+                    <div class="border border-1 border-black mt-5 box-txt" style="height: 48%;">
+                        <h3 class="p-5"  >Early Bird Discount </h3>
+                        <p class="px-5 pb-5" >List your offers, promos, or special membership privileges and perks here
+                            to entice people to book your property.</p>
+                    </div>
+                </div>
+                <div class="card-1 col-12 px-3" style="height: 70vh;">
+                    <img src="image/office 2.jpeg" class="object-fit-cover over overflow-hidden" height="50%"
+                        width="100%" alt="">
+                    <div class="border border-1 border-black mt-5 box-txt" style="height: 48%;">
+                        <h3 class="p-5" >Wellhall Members Club </h3>
+                        <p class="px-5 pb-5" >List your offers, promos, or special membership privileges and perks here
+                            to entice people to book your property.</p>
+                    </div>
+                </div>
+                <div class="col-12 px-3" style="height: 70vh;">
+                    <img src="image/office 3.jpg" class="object-fit-cover over overflow-hidden" height="50%"
+                        width="100%" alt="">
+                    <div class="border border-1 border-black mt-5 box-txt" style="height: 48%;">
+                        <h3 class="p-5" >Book 3 Nights,
+                            Get 1 Night</h3>
+                        <p class="px-5 pb-5" >List your offers, promos, or special membership privileges and perks here
+                            to entice people to book your property.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="pt-5 col-12">
+        <div id="bg-footer" class="p-5 text-light" style="background-image: url('/image/background-footer.jpg');
+            background-size: cover;
+            background-repeat: no-repeat; 
+            height: 100vh;">
+            <h1 id="h1-footer" class="Playfair-Display text-center mt-5 pt-5 text-light">In the Press</h1>
+            <div class="row mt-5 pt-5">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 ">
+                    <div class="p-4 ">
+                        <div class="img-footerr">
+                            <img src="image/save-instagram (1).png" alt="" width="40" height="40" class="">
+                        </div>
+                        <p class="pt-4 text-light">Boost your product and service's credibility by adding testimonials
+                            from your clients. People love recommendations so feedback from others who've tried it is
+                            invaluable.</p>
+                        <p class="text-light">- <br> Santa Solana Post</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4 ">
+                    <div class="p-4 ">
+                        <div class="img-footerr">
+                            <img src="image/save-instagram (1).png" alt="" width="40" height="40" class="">
+                        </div>
+                        <p class="pt-4 text-light">Boost your product and service's credibility by adding testimonials
+                            from your clients. People love recommendations so feedback from others who've tried it is
+                            invaluable.</p>
+                        <p class="text-light">- <br>Mariana's Luxe Travels</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4 ">
+                    <div class="p-4 ">
+                        <div class="img-footerr">
+                            <img src="image/save-instagram (1).png" alt="" width="40" height="40" class="">
+                        </div>
+                        <p class="pt-4 text-light">Boost your product and service's credibility by adding testimonials
+                            from your clients. People love recommendations so feedback from others who've tried it is
+                            invaluable.</p>
+                        <p class="text-light">- <br>Fairhill Journal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-5" style="background-color: #623e2a; height: auto; min-height: 100vh;">
+        <div class="pt-5">
+            <h1 id="h1-footer" class="Playfair-Display pt-5 mt-5 text-light text-center">The Wellhall</h1>
+            <div class="row justify-content-center pt-5 mt-5">
+                <div class="col-12 col-md-4 col-sm-12 mb-4">
+                    <div class="p-5 border border-1 border-light" style="min-height: 40vh;">
+                        <h4 class="ubuntu-regular text-light">Reservations Office</h4>
+                        <div class="d-flex mt-3 ">
+                            <img src="image/maps-and-flags.png" alt="" width="20px" height="20px" class="me-2 mt-1">
+                            <p class="text-light mb-0">123 Anywhere St., <br> Any City ST 12345</p>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <img src="image/smartphone-call (1).png" alt="" width="20px" height="20px" class="me-2 mt-1">
+                            <p class="text-light mb-0">123 Anywhere St., <br> Any City ST 12345</p>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <img src="image/email.png" alt="" width="20px" height="20px" class="me-2 mt-1">
+                            <p class="text-light mb-0">info@wellhall.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-sm-12 mb-4">
+                    <div class="p-5 border border-1 border-light" style="min-height: 40vh;">
+                        <h4 class="ubuntu-regular text-light">Office Hours</h4>
+                        <p class="text-light mt-4">
+                            Monday to Friday <br> 9:00 am to 6:00 pm <br><br>
+                            Saturday <br> 9:00 am to 12:00 noon
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <div id="border" class="p-5 border border-1 border-light" style="min-height: 40vh;">
+                        <h4 class="ubuntu-regular text-light">Get Social</h4>
+                        <div id="img-footer2" class="d-flex pt-3">
+                            <img src="image/facebook (3).png" alt="" width="40px" height="40px" class="me-3 mt-2" >
+                            <img src="image/instagram (3).png" alt="" width="40px" height="40px" class="me-3 mt-2">
+                            <img src="image/twitter (2).png" alt="" width="40px" height="40px" class="me-3 mt-2">
+                        </div>
+                        <button class="btn btn-outline-light rounded-5 mt-5 p-2 w-100">Tag us in your photos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</body>
+<script src="/javascript/01-introduction.js"></script>
+<script src="/javascript/page1.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

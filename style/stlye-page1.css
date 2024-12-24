@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+#txt-page1{
+    font-size: 75px !important;
+    margin-top: 50px ;
+    
+  }
+
+
+  .ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .Playfair-Display{
+    font-family: 'Playfair Display';
+  }
+  @media screen and (max-width: 576px) {
+    .container-fluid {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+    .right-txt {
+        text-align: center !important;
+        width: 102% !important; 
+        padding: 20px;
+    }
+
+    .left-txt {
+        width: 100%; 
+        margin-top: 20px; 
+    }
+
+    .left-txt .container-fluid {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .left-txt .container-fluid div {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .left-txt img {
+        
+        width: 95%; 
+        height: 100%; /* Maintain aspect ratio */
+    }
+}
+@media screen and (max-width: 576px) {
+  img {
+      height: auto; /* Allow images to adjust height automatically */
+  }
+
+  .border {
+      padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .py-5 {
+      padding-top: 20px !important; 
+      padding-bottom: 20px !important; 
+  }
+}
+.txt-family, .txt-promot{
+  font-size: 60px !important;
+}
+@media (max-width: 576px) {
+  .col-lg-12 {
+      padding-top: 20px;
+  }
+
+  .d-flex {
+      flex-direction: column;
+  }
+
+  .txt, .img, .col-lg-6 {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .img .bg-danger {
+      width: 100%; 
+      height: auto;
+  }
+
+  .col-lg-8 {
+      width: 100%;
+  }
+
+  .p-4 {
+      padding: 10px;
+  }
+
+  .border {
+      border-width: 1px;
+  }
+
+  .txt-family {
+      font-size: 1.2rem; 
+  }
+
+  .text-center {
+      font-size: 1rem; 
+  }
+}
+@media (max-width: 576px) {
+  .img-bathroom img {
+    max-height: 500px;
+  }
+  .d-flex {
+    flex-direction: column; 
+  }
+  .px-4 {
+    padding: 10px; 
+  }
+  .img-bathroom2{
+    height: 50vh !important;
+  }
+}
+.navbar a, .navbar button {
+  transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+.navbar-brand {
+  transition: color 0.5s ease;
+}
+.txt-pro {
+  font-size: 50px !important;
+}
+p,h1,h2,h3{
+  color: #623e2a !important;
+}
+/*  */
+
+
+/* Media Query for screens up to 576px */
+@media (max-width: 576px) {
+  .col-lg-4 {
+      flex-direction: column; /* Stack cards vertically */
+      gap: 2rem; /* Add more space between stacked cards */
+  }
+  .card-1{
+    margin-bottom: 200px !important;
+  }
+  .txt-pro,.txt-accommmon,.txt-family,#txt-page1{
+    font-size: 40px !important;
+  }
+  .box-txt{
+    height: 65% !important;
+  }
+  .col-lg-12 {
+      padding: 1rem;
+  }
+  .col-lg-12 img {
+      height: auto; /* Scale image proportionally */
+  }
+  #bg-footer{
+    margin-top: 100px !important;
+    height: 168vh !important;
+  }
+}
+@media (max-width: 576px) {
+  #border {
+      min-height: auto;
+  }
+
+  #h1-footer {
+      font-size: 40px !important;
+  }
+
+  /* #p-5 {
+      padding: 20px;
+  } */
+  #img-footer2{
+    display: flex !important;
+    
+  }
+  button {
+      font-size: 14px;
+  }
+}

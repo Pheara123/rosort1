@@ -1,0 +1,31 @@
+<div class="container-fluid p-5 col-lg-12 col-md-6">
+            <h1 class="text-center pt-5 mt-3 pb-5 mb-2 Playfair-Display">Accommodations</h1>
+        <div class="d-flex col-lg-12 col-md-6 justify-content-evenly">
+            <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12 " >
+                <img src="/image/bed-1.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden" alt="">
+            </div>
+            <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12 " >
+                <img src="/image/bed-2.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden" alt="">
+            </div>
+            <div style="width: 450px; height: 350px;" class="col-lg-4 col-md-12" >
+                <img src="/image/bed-3.jpg" width="100%" height="100%" class="object-fit-cover overflow-hidden" alt="">
+            </div>
+        </div>
+        <div class="d-flex col-lg-12 col-md-6 justify-content-evenly py-4">
+            <div class="col-lg-4 col-md-12 border border-2 border-dark" style="width: 450px; height: 280px; " >
+                <p class="py-5 ps-4">2 adults | 1 child below 7</p>
+                <p class="fs-4 ps-4">De Luxe Room</p>
+                <p class="py-1 ps-4">from $189 a night</p>
+            </div>
+            <div class="col-lg-4 col-md-12 border border-2 border-dark" style="width: 450px; height: 280px; " >
+                <p class="py-5 ps-4">2 adults | 1 child below 7</p>
+                <p class="fs-4 ps-4">De Luxe Sea View</p>
+                <p class="py-1 ps-4">from $209 a night</p>
+            </div>
+            <div class="col-lg-4 col-md-12 border border-2 border-dark" style="width: 450px; height: 280px; " >
+                <p class="py-5 ps-4">2 adults | 2 child below 7</p>
+                <p class="fs-4 ps-4">The Wellhall Family Suite</p>
+                <p class="py-1 ps-4">from $399 a night</p>
+            </div>
+        </div>
+    </div>
